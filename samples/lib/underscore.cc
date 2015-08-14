@@ -2,7 +2,7 @@ extern "C" char*  underscore_string(char* input);
 extern "C" char* test(char* input);
 #include <iostream>
 #include <algorithm>
-//g++ -shared -fPIC -Wall -o sample/lib/lib_underscore.so lib/underscore.cc
+//g++ -shared -fPIC -Wall -o lib_underscore.so underscore.cc
 using namespace std;
 
 char* test (char* hello){
